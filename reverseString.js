@@ -25,3 +25,6 @@ function reverseString(string) {
 }
 
 console.log(reverseString("Brian"));
+console.log(reverseString("Dog"));
+console.log(reverseString("House"));
+console.log(reverseString("Car"));
