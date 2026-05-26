@@ -21,7 +21,7 @@ function reverseString(string) {
         return string;
     }   
 
-    return string[string.length - 1] + reverseString(string.slice(0, -1));
+    return string[string.length - 1] + reverseString(string.slice(0, string.length -1));
 }
 
 console.log(reverseString("Brian"));
